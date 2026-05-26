@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 import dagshub
-dagshub.init(repo_owner='campusx-official', repo_name='mlflow-dagshub-demo', mlflow=True)
+dagshub.init(repo_owner='vash04', repo_name='mlflow-dagshub-demo', mlflow=True)
 
 mlflow.set_tracking_uri("https://dagshub.com/vash04/mlflow-dagshub-demo.mlflow")
 
